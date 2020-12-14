@@ -5,7 +5,7 @@ import os
 
 
 def load_housing_data():
-    csv_path = os.path.join("1-hr-combined.csv")
+    csv_path = os.path.join("Box-Plot.csv")
     return pd.read_csv(csv_path)
 housing = load_housing_data()
 housing.head()
