@@ -3,12 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os 
 
-
-def load_housing_data():
-    csv_path = os.path.join("Box-Plot.csv")
-    return pd.read_csv(csv_path)
-housing = load_housing_data()
-housing.head()
+housing=pd.read_csv('Box-Plot.csv')
 
 plt.figure(figsize=(14, 7))
 
